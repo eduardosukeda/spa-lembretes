@@ -19,8 +19,8 @@ public class LembreteController {
     }
 
     @GetMapping
-    public ResponseEntity<List<LembreteDTO>> findAll() {
-        return ResponseEntity.ok(lembreteService.findAll());
+    public ResponseEntity<List<LembreteDTO>> findAllByEmail(String email) {
+        return ResponseEntity.ok(lembreteService.findAllByEmail(email));
     }
 
     @GetMapping("{id}")

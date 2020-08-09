@@ -34,8 +34,8 @@ public class LembreteServiceImpl implements LembreteService {
     }
 
     @Override
-    public List<LembreteDTO> findAll() {
-        List<Lembrete> customerList = lembreteRepository.findAll();
+    public List<LembreteDTO> findAllByEmail(String email) {
+        List<Lembrete> customerList = lembreteRepository.findAllByEmail(email);
         return customerList.stream().map(LembreteDTO::new).collect(Collectors.toList());
     }
 

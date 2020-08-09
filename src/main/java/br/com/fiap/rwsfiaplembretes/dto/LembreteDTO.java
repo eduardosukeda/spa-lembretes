@@ -7,6 +7,7 @@ public class LembreteDTO {
 
     private Integer id;
     private String conteudo;
+    private String email;
 
     @JsonProperty("prioridade")
     private PrioridadeEnum prioridadeEnum;
@@ -14,15 +15,17 @@ public class LembreteDTO {
     public LembreteDTO() {
     }
 
-    public LembreteDTO(Integer id, String conteudo, PrioridadeEnum prioridadeEnum) {
+    public LembreteDTO(Integer id, String conteudo, String email, PrioridadeEnum prioridadeEnum) {
         this.id = id;
         this.conteudo = conteudo;
+        this.email = email;
         this.prioridadeEnum = prioridadeEnum;
     }
 
     public LembreteDTO(Lembrete lembrete) {
         this.id = lembrete.getId();
         this.conteudo = lembrete.getConteudo();
+        this.email = lembrete.getEmail();
         this.prioridadeEnum = lembrete.getPrioridadeEnum();
     }
 
@@ -40,6 +43,14 @@ public class LembreteDTO {
 
     public void setConteudo(String conteudo) {
         this.conteudo = conteudo;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public PrioridadeEnum getPrioridadeEnum() {

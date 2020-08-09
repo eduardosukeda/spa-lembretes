@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface LembreteService {
 
-    public List<LembreteDTO> findAll();
+    public List<LembreteDTO> findAllByEmail(String email);
 
     public LembreteDTO findById(Integer id);
 
