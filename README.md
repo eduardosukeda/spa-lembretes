@@ -21,14 +21,14 @@ Microserviço onde é possível realizar as operação de CREATE, READ, UPDATE e
 
 ## Heroku
 
-Foi realizado o deploy da aplicação rws-batch-fiap-credit-card no Heroku que é uma plataforma em nuvem, onde é possível realizar o acesso através da mesma.
+Foi realizado o deploy da aplicação rws-fiap-lembretes no Heroku que é uma plataforma em nuvem, onde é possível realizar o acesso através da mesma.
 
 Acesso sem Swagger - https://rws-fiap-lembretes.herokuapp.com/
 
 Acesso com Swagger - https://rws-fiap-lembretes.herokuapp.com/swagger-ui.html
 
 
-## Instalação e execução do rws-batch-fiap-credit-card
+## Instalação e execução do rws-fiap-lembretes
 
 1 - Realizar o clone `$ git clone https://github.com/eduardosukeda/rws-fiap-lembretes.git`
 
