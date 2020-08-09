@@ -13,7 +13,6 @@ Microserviço onde é possível realizar as operação de CREATE, READ, UPDATE e
 
 - Spring Web
 - Spring Data JPA
-- Spring Security
 - Spring AMQP (RabbitMQ)
 - Postgres Database
 - Swagger (documentação)
