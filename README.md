@@ -1,5 +1,5 @@
 # rws-fiap-lembretes
-Microserviço onde é possível realizar as operação de CREATE, READ, UPDATE e DELETE da tabela TB_LEMBRETES, e também está implementado um serviço produtor para envio das informações a um consumidor onde o objetivo final é realizar o envio de e-mail para o usuário, informando que seu lembrete foi adicionado/editado. 
+Microserviço onde é possível realizar as operação de CREATE, READ, UPDATE e DELETE da tabela TB_LEMBRETES, e também está implementado um serviço produtor para envio das informações a um consumidor (https://github.com/eduardosukeda/rws-fiap-lembretes-amqp-consumer) onde o objetivo final é realizar o envio de e-mail para o usuário, informando a prioridade a mensagem e que seu lembrete foi adicionado/editado.
 
 
 ## Pré-requisitos para execução do rws-fiap-lembretes
